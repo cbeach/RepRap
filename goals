@@ -1,0 +1,67 @@
+o  Succesfully print an object
+	o  Configure Skeinforge
+		-  Print Bart a cake :)
+
+o  Upgrade drive system
+	o Upgrade from a threaded rod system to a belt-driven system
+		Requires:
+		  *  Belts and pulleys from McMaster-Carr
+		  *  Machineshop access for machining motor mounts.
+		  	
+o  Upgrade extruder
+	o  Upgrade to Mk7 stepstruder
+		Requires:
+		  *  Mk7 Extruder from makerbot industries
+
+o  Upgrade motors
+	o  Upgrade to brushless servos
+		Requires:
+		  *  Brushless motors w/ attached encoders
+		  *  Gekko Drives
+o  3D Scanner
+	o  Build a scanner out of Kinnects
+		Requires:
+		  *  3 Kinnects
+
+o  Extruder Development
+	o  Grayscale extruder
+		-  Two channel stainless extrude head
+		-  Extruder controller board
+		   Features:
+		     -  Drive five steppers and one dc motor
+		     -  Plenty of power (propeller? ARM?)
+		Requires:
+		  *  Machineshop Access
+		  *  Mechanical Engineer
+		  *  Electrical Engineer (Wicker)
+		  *  Custom Firmware (Me)
+
+	o  CMYKW Extruder
+		-  Five channel stainless extrude head
+		-  Extruder controller (same as grayscale
+		Requires:
+		  *  Machineshop Access		
+		  *  Mechanical Engineer
+		  *  Electrical Engineer (Wicker)
+		  *  Custom Firmware (Me)
+
+	o  Software Stack Upgrade
+		-  The entire software stack will need an upgrade to handle 
+		   color
+		   -  New gcodes will need to be added to the fireware to
+		      the extra functionality
+		   -  The host software (ReplicatorG) may not need the upgrade
+		   -  Skeinforge will need the most extensive upgrade, color 
+		      will add a great deal of complexity to the gcode 
+		      generation.  Possibly needing color lag to be taken into
+		      consideration.
+		   -  The stl format will need to be modified to contain color 
+		      information
+		-  This group will be heavily involved but the bulk of the work
+		   will be done by the RepRap community.
+
+o  Other projects
+	o  Chocolate Extruder
+	o  RoboDozer/RoboSlusher
+	o  AssembleBot
+	
